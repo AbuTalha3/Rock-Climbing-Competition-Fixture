@@ -292,7 +292,7 @@
     padding: 2%;
     /* background-color: #f53f02; */
     background-image: url('./images/mountain-desert.jpg');
-  
+    background-repeat: no-repeat;  
   }
   
   .Featured-Speakers-title {
@@ -370,9 +370,10 @@
     padding: 2%;
     font-family: 'lato', sans-serif;
     background: none;
-    border: #d3d3d3 solid 2px;
+    border: #fc8787 solid 2px;
     font-size: large;
     font-weight: 600;
+    background-color: #5870ea;
   }
   
   .large-logo {
@@ -755,9 +756,12 @@
   
     .Featured-Speakers {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       gap: 2vh;
-      padding: 2% 5%;
+      padding: 2% 5%;      
+      background-image: url('./images/mountain-desert.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;  
     }
   
     .Featured-Speakers-title {
