@@ -1,0 +1,919 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: 'Cocogoose Pro Letterpress';
+    src: url('fonts/cocogoose-pro.letterpress.ttf');
+  }
+  
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  a,
+  article {
+    font-family: 'lato', sans-serif;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .Navbar {
+    width: 100%;
+    background: transparent;
+    position: fixed;
+  }
+  
+  .nav-items {
+    display: flex;
+    align-items: center;
+    padding: 2% 2%;
+  }
+  
+  #Menu-button {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+  }
+  
+  .bar {
+    width: 30px;
+    border: solid #272a31;
+  }
+  
+  .Mobile-Menu {
+    position: fixed;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    background-color: #d3d3d3;
+    font-size: 32px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 5%;
+    margin: 0;
+  }
+  
+  .Mobile-Menu li button {
+    background: none;
+    outline: none;
+    border: none;
+  }
+  
+  #close-menu {
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 0;
+  }
+  
+  .display-none {
+    display: none;
+  }
+  
+  .d-right {
+    margin-left: auto;
+  }
+  
+  .no-style {
+    text-decoration: none;
+  }
+  
+  .hideOnDesktop-I {
+    display: inline;
+  }
+  
+  .hideOnMobile-f {
+    display: none;
+  }
+  
+  .bg-dark {
+    background-color: #272a31;
+  }
+  
+  .fc-white {
+    color: rgb(240, 198, 10);
+    /* font-weight: bold; */
+    /* letter-spacing: 0.3ch; */
+    /* font-size: larger; */
+  }
+  
+  .main-program-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fc-dark {
+    color: #272a31;
+  }
+  
+  .fc-orange {
+    color: #f72009;
+  }
+  
+  .Headline {
+    padding: 15% 5%;
+    background-image: url('./images/mountain-desert.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .Headline-quote {
+    display: flex;
+    color: #d3fa10;
+    margin-bottom: 0;
+    font-size: 5px;
+    background-image: url("./images/boats.jpg");
+  }
+  
+  .Headline-greeting {
+    color: #025008;
+    margin-bottom: 0;
+    font-size: 3vw;
+  }
+  
+  .Headline-title {
+    font-family: 'Cocogoose Pro Letterpress', sans-serif;
+    margin-bottom: 0;
+    font-size: 4vw;
+    background: url('./images/boats.jpg') repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .Headline article,
+  .About-Headline article {
+    padding: 4%;
+    font-size: 3vw;
+    color: white;
+    font-weight: 600;
+    background-color: rgba(12, 141, 0, 0.5);  
+  }
+  
+  .h1-mobile {
+    font-size: 10vw;
+    color: #b74c41;
+  }
+  
+  .h2-mobile {
+    font-size: 4vw;
+  }
+  
+  .Headline h1 {
+    margin-top: 0;
+  }
+  
+  .Headline h2 {
+    margin-bottom: 0;
+  }
+  
+  #location {
+    margin-top: 2px;
+    font-size: 5vw;
+  }
+  
+  .Headline p {
+    margin-bottom: 0;
+    font-size: 5vw;
+  }
+  
+  .bg-light {
+    background-color: #d3d3d3;
+  }
+  
+  .h3 {
+    font-size: xx-large;
+  }
+  
+  .ph-number {
+    font-size: medium;
+  }
+  
+  .main-program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    padding: 2%;
+    background-image: url('./images/gilgit\ baltistan.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .main-program-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .title-underline {
+    background-color: #ec5242;
+    width: 150px;
+    padding: 1px;
+    display: block;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4%;
+    background-color: rgba(53, 58, 68, 0.3);
+    width: 100%;
+  }
+  
+  .card-header {
+    width: 20%;
+  }
+  
+  .card-header img {
+    width: 100%;
+  }
+  
+  .card-title {
+    width: 20%;
+  }
+  
+  .card-title span {
+    font-family: 'lato', sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+  }
+  
+  .card-body {
+    width: 50%;
+    padding: 0;
+  }
+  
+  .card-content {
+    font-size: 3vw;
+    color: white;
+    margin: 0;
+  }
+  
+  .main-program-btn {
+    margin: 5%;
+    padding: 5%;
+    background-color: #ec5242;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-family: 'lato', sans-serif;
+    font-size: 4vw;
+  }
+  
+  .Featured-Speakers {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 2%;
+    /* background-color: #f53f02; */
+    background-image: url('./images/mountain-desert.jpg');
+  
+  }
+  
+  .Featured-Speakers-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .speakersContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .speaker {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+  }
+  
+  .speaker-header {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    display: flex;
+    background-image: url('./images/chess.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 50%;
+  }
+  
+  .speaker-img {
+    height: 90%;
+    width: 90%;
+    margin-top: auto;
+    margin-left: auto;
+  }
+  
+  .speaker-body {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0 0 0;
+  }
+  
+  .speaker-name {
+    margin: 0;
+    font-size: 4vh;
+  }
+  
+  .speaker-title {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 3.2vh;
+    gap: 5px;
+    color: #ec5242;
+  }
+  
+  .speaker-status {
+    margin: 0;
+    font-size: 3.2vh;
+  }
+  
+  .speaker-divider {
+    background-color: #d3d3d3;
+    width: 20%;
+    padding: 1px;
+    display: block;
+  }
+  
+  .See-more {
+    padding: 2%;
+    font-family: 'lato', sans-serif;
+    background: none;
+    border: #d3d3d3 solid 2px;
+    font-size: large;
+    font-weight: 600;
+  }
+  
+  .large-logo {
+    display: flex;
+    height: 90px;
+    width: 30px;
+  
+  }
+  
+  .partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 5%;
+  }
+  
+  .partners-title {
+    margin: 0;
+  }
+  
+  .partners-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5%;
+  }
+  
+  .partners-logos img {
+    width: 20%;
+  }
+  
+  .Home-footer {
+    display: flex;
+    align-items: center;
+    padding: 3% 15%;
+    gap: 50px;
+  }
+  
+  .host {
+    width: 30%;
+  }
+  
+  .host img {
+    width: 100%;
+  }
+  
+  .host-title span {
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: 'lato', sans-serif;
+  }
+  
+  .About-Headline {
+    padding: 15% 5%;
+    background-image: url('./images/gilgit\ baltistan.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .About-Headline-title {
+    font-family: 'Cocogoose Pro Letterpress', sans-serif;
+    margin-top: 0;
+    /* background: url('./images/gilgit\ baltistan.jpeg') repeat; */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .phone-logo,
+    .gmail-logo {
+      width: 50px;
+      length: 50px;
+      display: none;
+    }
+  
+    .summer-camp-para {
+      color: #f72009;
+      font-size: 12px;
+    }
+  
+  .CC-summit {
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: #d3d3d3 solid 3px;
+    background-color: #272a31;
+  }
+  
+  .CC-summit h1 {
+    font-size: 7vw;
+    text-align: center;
+    color: #a2cf00;
+  }
+  
+  .CC-summit p {
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 500;
+    color: #43f779;
+  }
+  
+  .CC-summit img {
+    width: 80%;
+  }
+  
+  .winner-teams {
+    display: flex;
+    gap: 5%;
+    flex-direction: row;
+    align-items: center;
+    width: 320px;
+    height: 105px;
+  }
+  
+  .school-img {
+    width: 320px;
+    height: 105px;
+    background-image: url("./images/school-img.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .school-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(172, 32, 17, 0.5);
+    position: relative;
+    height: 100%;
+  }
+  
+  .school-name p {
+    font-weight: 600;
+    font-size: medium;
+  }
+  
+  .school-name p span {
+    font-weight: normal;
+    font-size: small;
+  }
+  
+                        @media only screen and (min-width: 768px) {
+                          .logo {
+                            width: 40px;
+                          }
+  
+    .nav-signin {
+      padding: 0 20% 0 0;
+    }
+  
+    .nav-signin ul {
+      margin: 2px 0 2px auto;
+    }
+  
+    .nav-ul {
+      display: flex;
+      list-style: none;
+      align-items: center;
+    }
+  
+    .Headline {
+      padding: 8% 20% 8% 8%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-image: url("./images/gilgit\ baltistan.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .Headline article {
+      padding: 4%;
+      font-size: 1.8vw;
+      width: 70%;
+      color: white;
+      font-weight: 600;
+      background-color: rgba(151, 5, 151, 0.5);
+    }
+  
+    .h1-mobile {
+      font-size: 7vw;
+    }
+  
+    .h2-mobile {
+      font-size: 3vw;
+    }
+  
+    .Headline h1 {
+      margin-top: 0;
+    }
+  
+    .Headline h2 {
+      margin-bottom: 0;
+    }
+  
+    #location {
+      margin-top: auto;
+      font-size: 2vw;
+    }
+  
+    .Headline p {
+      margin-bottom: 0;
+      font-size: 5vw;
+    }
+  
+    .bg-light {
+      background-color: #d3d3d3;
+    }
+  
+    .gap-close {
+      gap: 1.2vw;
+    }
+  
+    .gap-wide {
+      gap: 3vw;
+    }
+  
+    .nav-ul a {
+      font-family: 'lato', sans-serif;
+    }
+  
+    .fs-small {
+      font-size: medium;
+    }
+  
+    .fs-medium {
+      font-size: large;
+    }
+  
+    .nav-items {
+      display: flex;
+      align-items: center;
+      padding: 1% 8%;
+      background-color: white;
+      border-bottom: solid #d3d3d3;
+    }
+  
+    .hideOnDesktop-I {
+      display: none;
+    }
+  
+    .hideOnMobile-f {
+      display: flex;
+      /* height: 30px;
+      width: 30px; */
+    }
+  
+    .large-logo {
+      display: flex;
+      height: 250px;
+      width: 80px;
+  
+    }
+  
+    .padded-border {
+      border: solid 3px;
+      padding: 10px;
+    }
+  
+    .About-Headline a {
+      font-size: 1.8vw;
+    }
+  
+    .nav-links ul li a {
+      font-weight: 500;
+    }
+  
+    .Mobile-Menu {
+      position: static;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      background: none;
+      font-size: large;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .Mobile-Menu li a:hover {
+      text-decoration: underline;
+      font-weight: 600;
+    }
+  
+    #Menu-button {
+      display: none;
+    }
+  
+    .Navbar {
+      position: fixed;
+      z-index: 2;
+    }
+  
+    .main-program {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #272a31;
+      gap: 2vh;
+      padding: 5%;
+    }
+  
+    .main-program-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .main-program-title-underline {
+      background-color: #ec5242;
+      width: 30%;
+      padding: 1px;
+      display: block;
+    }
+  
+    .cards {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1%;
+      margin: 0;
+    }
+  
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5%;
+      padding: 2%;
+      width: 25%;
+      height: 200px;
+    }
+  
+    .card-header {
+      width: fit-content;
+      height: 20%;
+      height: auto;
+    }
+  
+    .card-header img {
+      height: 60px;
+    }
+  
+    .card-title {
+      width: fit-content;
+      height: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .card-title span {
+      font-family: 'lato', sans-serif;
+      font-size: 1.3vw;
+      font-weight: 500;
+    }
+  
+    .card-body {
+      width: fit-content;
+      padding: 0;
+      height: 60%;
+    }
+  
+    .card-content {
+      font-size: 1.2vw;
+      margin: 0;
+      text-align: center;
+    }
+  
+    .main-program-link {
+      margin-top: 5%;
+    }
+  
+    .Featured-Speakers {
+      display: flex;
+      flex-direction: column;
+      gap: 2vh;
+      padding: 2% 5%;
+    }
+  
+    .Featured-Speakers-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .speakersContainer {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+  
+    .speaker {
+      display: flex;
+      flex-direction: row;
+      gap: 1vw;
+      width: 50%;
+    }
+  
+    .speaker-header {
+      height: 120px;
+      width: 120px;
+      display: flex;
+    }
+  
+    .speaker-img {
+      height: 90%;
+      width: 90%;
+      margin-top: auto;
+    }
+  
+    .speaker-body {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 10px 0 0 0;
+    }
+  
+    .speaker-name {
+      margin: 0;
+      font-size: 2.3vw;
+    }
+  
+    .speaker-title {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      font-size: 2.8vh;
+    }
+  
+    .speaker-status {
+      margin: 0;
+      font-size: 2.8vh;
+    }
+  
+    .speaker-divider {
+      background-color: #d3d3d3;
+      width: 10%;
+      padding: 1px;
+      display: block;
+    }
+  
+    .partners-logos {
+      margin-top: 50px;
+    }
+  
+    .About-Headline {
+      padding: 10% 20% 10% 10%;
+      background-image: url('./images/gilgit\ baltistan.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .About-Headline-title {
+      font-family: 'Cocogoose Pro Letterpress', sans-serif;
+      text-align: center;
+      background: url('Images/Headline-bg.jpg') no-repeat;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+  
+    .About-Headline article {
+      padding: 4%;
+      font-size: 1.8vw;
+      color: white;
+      font-weight: 600;
+      background-color: rgba(151, 5, 151, 0.5);
+    }
+  
+    .phone-logo,
+    .gmail-logo {
+      width: 50px;
+      length: 50px;
+    }
+  
+    .CC-summit {
+      padding: 5% 15%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-bottom: #d3d3d3 solid 3px;
+    }
+  
+    .CC-summit h1 {
+      font-size: 4vw;
+      text-align: center;
+    }
+  
+    .CC-summit p {
+      font-size: 2vw;
+      text-align: center;
+      font-weight: 500;
+    }
+  
+    .CC-summit img {
+      width: 50%;
+    }
+  
+    .winner-teams {
+      display: flex;
+      gap: 5%;
+      flex-direction: row;
+      align-items: center;
+      width: 650px;
+      height: 200px;
+    }
+  
+    .school-img {
+      width: 650px;
+      height: 200px;
+      background-image: url('./images/school-img.jpeg');
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  
+    .school-name {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgba(172, 32, 17, 0.5);
+      position: relative;
+    }
+  
+    .school-name p {
+      font-weight: 600;
+      font-size: large;
+    }
+  
+    .school-name p span {
+      font-weight: normal;
+      font-size: medium;
+    }
+  }
