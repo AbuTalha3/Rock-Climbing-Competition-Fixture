@@ -441,10 +441,10 @@
   .About-Headline-title {
     font-family: 'Cocogoose Pro Letterpress', sans-serif;
     margin-top: 0;
-    /* background: url('./images/gilgit\ baltistan.jpeg') repeat; */
+    background: url('./images/boats.jpg') repeat; */
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent;
+    background-color: transparent;
   }
   
   .phone-logo,
@@ -541,7 +541,7 @@
     }
   
     .Headline {
-      padding: 8% 20% 8% 8%;
+      padding: 80% 20% 8% 8%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -550,12 +550,12 @@
       background-size: cover;
     }
   
-    .Headline article {
+    .Headline article {      
       padding: 4%;
       font-size: 1.8vw;
-      width: 70%;
+      width: 80%;
       color: white;
-      font-weight: 600;
+      font-weight: 400;
       background-color: rgba(151, 5, 151, 0.5);
     }
   
@@ -843,7 +843,7 @@
     .About-Headline-title {
       font-family: 'Cocogoose Pro Letterpress', sans-serif;
       text-align: center;
-      background: url('Images/Headline-bg.jpg') no-repeat;
+      background: url('./images/boats.jpg');
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
@@ -851,6 +851,7 @@
   
     .About-Headline article {
       padding: 4%;
+      margin-top: -50px;
       font-size: 1.8vw;
       color: white;
       font-weight: 600;
