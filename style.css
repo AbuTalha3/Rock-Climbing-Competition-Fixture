@@ -541,7 +541,7 @@
     }
   
     .Headline {
-      padding: 80% 20% 8% 8%;
+      padding: 10% 20% 8% 8%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -712,6 +712,11 @@
       padding: 2%;
       width: 25%;
       height: 200px;
+    }
+
+    .card-content {
+      background-color: #080137;
+      color: #f3f949;
     }
   
     .card-header {
