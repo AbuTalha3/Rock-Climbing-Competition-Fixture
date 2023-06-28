@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
   <title>Summer Camp and Rock climbing Competition For Kids</title>
 </head>
@@ -22,21 +23,26 @@
       </ul>
     </div>
     <div class="nav-items d-flex align-center">
-      <button type="button" id="Menu-button">
+      <!-- <button type="button" class="menubars" id="Menu-button"> -->
+        <img class="menubars" src="./images/hamburger.png" alt="Menu">
+        <!-- <span class="bar"></span>
         <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
+        <span class="bar"></span> -->
+      <!-- </button> -->
       <div class="nav-brand">
         <a href="#"><img src="./images/Summer-Camp.jpg" class="hideOnMobile-f logo" alt="The Summer Camp Logo"></img></a>
       </div>
       <div class="nav-links d-right" id="nav-options">
-        <ul class="nav-ul Mobile-Menu gap-wide display-none" id="mobile-Menu">
-          <li class='d-right'><button type="button" class="hideOnDesktop-I no-style fc-dark" id="close-menu">&times;</button></li>
-          <li><a class="fc-dark fs-medium fc-dark no-style" href="About.html">About</a></li>
-          <li><a class="fc-dark fs-medium fc-dark no-style" href="#Program">Competition</a></li>
-          <li><a class="fc-dark fs-medium fc-dark no-style" href="#Sponsor">Sponsor</a></li>
-          <li><a class="fc-orange fs-medium padded-border no-style" href="#">GB Climbing Competition</a></li>
+        <ul class="nav-ul Mobile-Menu gap-wide" id="mobile-Menu">
+          <!-- <li class='d-right close-menu'><button type="button" class="hideOnDesktop-I no-style Dark-Blue" id="closemenu">&times;</button></li> -->
+          <i class="fas fa-times close crossicon"></i>
+          <li><a class="Dark-Blue fs-medium  no-style" href="About.html">About</a></li>
+          <li><a class="Dark-Blue fs-medium  no-style" href="#Program">Competition</a></li>
+          <li><a class="Dark-Blue fs-medium  no-style" href="#Sponsor">Sponsor</a></li>
+          <li><a class="Dark-Blue fs-medium  no-style" href="#">Join</a></li>
+          <li><a class="Climb-Club fs-medium padded-border no-style" href="#">GB Climb Club</a></li>
+          <li><a class="fc-orange fs-medium padded-border no-style" href="#">Sign Up</a></li>
+
         </ul>
       </div>
     </div>
@@ -120,7 +126,7 @@
   </section>
 
   <section class="Featured-Speakers" id="Guest-Container">
-    <h3 class="h3 Featured-Speakers-title">Our Trainers
+    <h3 class="h3 trainers">Our Trainers
       <span class="title-underline"></span>
     </h3>
     <div class="card">
@@ -172,6 +178,6 @@
       <span>Established 2019- Idea Conceieved and Created by Co-Founder Hassan Raza and Abu Talha</span>
     </div>
   </footer>
-  <script src="index.js" type="module"></script>
+  <script src="menu.js"></script>
 </body>
 </html>

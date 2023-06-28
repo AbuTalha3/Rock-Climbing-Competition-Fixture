@@ -1,17 +1,17 @@
-const menu = document.querySelector(".heading-menu");
-const closeicons = document.querySelector(".close");
+const menu = document.querySelector("#mobile-Menu");
+const closeicons = document.querySelector(".crossicon");
 const hamburger = document.querySelector(".menubars");
 
 const showMenu = () => {
-  hamburger.style.display = "block";
-  closeicons.style.transform = "translateY(0)";
-  menu.style.transform = "translateY(0)";
+ menu.classList.toggle("show")
+ hamburger.classList.toggle("hidden")
+ closeicons.classList.toggle("hidden")
 };
 
-const hideMenu = () => {
-  closeicons.style.transform = "translateY(-20rem)";
-  menu.style.transform = "translateY(-200%)";
-};
-
-hamburger.addEventListener("click", showMenu);
-closeicons.addEventListener("click", hideMenu);
+hamburger.addEventListener("click",() => {
+  showMenu()
+  console.log("anything")
+})
+closeicons.addEventListener("click",() => {
+  showMenu()
+})

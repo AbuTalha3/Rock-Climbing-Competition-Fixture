@@ -1,12 +1,7 @@
 * {
     box-sizing: border-box;
-  }
-  
-  @font-face {
-    font-family: 'Cocogoose Pro Letterpress';
-    src: url('fonts/cocogoose-pro.letterpress.ttf');
-  }
-  
+  }  
+    
   p,
   h1,
   h2,
@@ -51,38 +46,79 @@
   
   .Mobile-Menu {
     position: fixed;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    top: 0;
-    bottom: 0;
+    list-style: none; 
+    top: 0;  
     left: 0;
     right: 0;
     z-index: 4;
-    background-color: #d3d3d3;
-    font-size: 32px;
-    align-items: center;
-    justify-content: space-around;
-    padding: 5% 5%;
-    margin: 0;
+    opacity: 90%;
+    font-size: 32px;    
+    margin: 0; 
+    display: none;
   }
+
+  .menubars {
+    width: 35px;
+    height: auto;
+  }
+
+  #mobile-Menu.show {
+    display: block;
+    height: 100vh;
+    background-color: #50c75a;
+  }
+
+  #mobile-Menu.show ul {
+   list-style: none;
+   display: grid;
+   gap: 40px;
+   padding-top: 121px;
+   place-content: center;
+  }
+
+  #mobile-Menu.show li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 32px;
+    padding-top: 20px;
+  }
+
+  .crossicon {
+    display: none;
+  }
+
+  .crossicon.hidden {
+    font-size: 35px;
+    margin-right: 12px;
+    margin-top: 6px;
+    display: block;
+    z-index: 5000;
+  }
+
+  .menubars.hidden {
+    display: none;
+  }
+
+  .Mobile-Menu li {
+    display: flex;
+      }
   
   .Mobile-Menu li button {
     background: none;
     outline: none;
     border: none;
-  }
-  
-  #close-menu {
-    font-weight: bolder;
-    font-size: 50px;
-    padding: 0;
-  }
-  
-  .display-none {
     display: none;
   }
   
+  .close-menu {
+    font-weight: bolder;
+    font-size: 10px;
+    padding: 0;
+    display: block;
+  }  
+   
   .d-right {
     margin-left: auto;
   }
@@ -93,7 +129,7 @@
   
   .hideOnDesktop-I {
     display: inline;
-  }
+   }
   
   .hideOnMobile-f {
     display: none;
@@ -104,24 +140,27 @@
   }
   
   .fc-white {
-    color: rgb(240, 198, 10);
-    /* font-weight: bold; */
-    /* letter-spacing: 0.3ch; */
-    /* font-size: larger; */
-  }
+   color: #fff;
+  }  
   
-  .main-program-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .fc-dark {
+  .Dark-Blue {
     color: #272a31;
   }
   
   .fc-orange {
     color: #f72009;
+  }
+
+  .Climb-Club {
+    color: #f72009;
+    display: none;
+    font-weight: 500;
+  }
+
+  .main-program-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .Headline {
@@ -295,77 +334,14 @@
     background-repeat: no-repeat;  
   }
   
-  .Featured-Speakers-title {
+  .trainers {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-  }
-  
-  .speakersContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .speaker {
-    display: flex;
-    flex-direction: row;
-    gap: 1vw;
-  }
-  
-  .speaker-header {
-    height: 150px;
-    width: 150px;
-    overflow: hidden;
-    display: flex;
-    background-image: url('./images/chess.jpg');
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: 50%;
-  }
-  
-  .speaker-img {
-    height: 90%;
-    width: 90%;
-    margin-top: auto;
-    margin-left: auto;
-  }
-  
-  .speaker-body {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10px 0 0 0;
-  }
-  
-  .speaker-name {
-    margin: 0;
-    font-size: 4vh;
-  }
-  
-  .speaker-title {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    font-size: 3.2vh;
-    gap: 5px;
-    color: #ec5242;
-  }
-  
-  .speaker-status {
-    margin: 0;
-    font-size: 3.2vh;
-  }
-  
-  .speaker-divider {
-    background-color: #d3d3d3;
-    width: 20%;
-    padding: 1px;
-    display: block;
-  }
-  
+  }  
+   
+      
   .See-more {
     padding: 2%;
     font-family: 'lato', sans-serif;
@@ -769,70 +745,12 @@
       background-size: cover;  
     }
   
-    .Featured-Speakers-title {
+    .trainers {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 10px;
-    }
-  
-    .speakersContainer {
-      display: flex;
-      flex-direction: row;
-      gap: 20px;
-    }
-  
-    .speaker {
-      display: flex;
-      flex-direction: row;
-      gap: 1vw;
-      width: 50%;
-    }
-  
-    .speaker-header {
-      height: 120px;
-      width: 120px;
-      display: flex;
-    }
-  
-    .speaker-img {
-      height: 90%;
-      width: 90%;
-      margin-top: auto;
-    }
-  
-    .speaker-body {
-      width: 70%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      padding: 10px 0 0 0;
-    }
-  
-    .speaker-name {
-      margin: 0;
-      font-size: 2.3vw;
-    }
-  
-    .speaker-title {
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-      font-size: 2.8vh;
-    }
-  
-    .speaker-status {
-      margin: 0;
-      font-size: 2.8vh;
-    }
-  
-    .speaker-divider {
-      background-color: #d3d3d3;
-      width: 10%;
-      padding: 1px;
-      display: block;
-    }
+    }   
   
     .partners-logos {
       margin-top: 50px;
