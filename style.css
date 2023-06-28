@@ -511,7 +511,10 @@ body {
     align-items: center;
   }
 
-  .menubars,
+  .menubars {
+    display: none;
+  }
+
   .crossicon {
     display: none;
   }
