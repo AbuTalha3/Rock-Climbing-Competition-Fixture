@@ -175,7 +175,7 @@ body {
 .Headline-greeting {
   color: #025008;
   margin-bottom: 0;
-  font-size: 3vw;
+  font-size: 5vw;
 }
 
 .Headline-title {
@@ -509,6 +509,11 @@ body {
     display: flex;
     list-style: none;
     align-items: center;
+  }
+
+  .menubars,
+  .crossicon {
+    display: none;
   }
 
   .Headline {
