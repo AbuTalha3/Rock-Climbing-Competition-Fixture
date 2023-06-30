@@ -72,12 +72,11 @@ This is the mobile size web page project, it tests more on Git, GitHub, GitHub W
 ### Tech Stack <a name="tech-stack"></a>
 
 - HTML
-- CSS
+- SCSS / CSS
 - JavaScript
 - Linters
-- Figma
-
-
+- Figma Design
+- Canva
 
 ### Key Features <a name="key-features"></a>
 
