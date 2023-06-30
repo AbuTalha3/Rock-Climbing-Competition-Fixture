@@ -218,7 +218,7 @@ If you like this project you can contact me for any of your coding dreams.
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank Cindy Shin for allowing to use the design made by her.
+I would like to thank "Cindy Shin" for allowing to use the design made by her.
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
