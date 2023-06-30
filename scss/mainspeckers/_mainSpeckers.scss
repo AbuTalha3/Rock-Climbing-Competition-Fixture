@@ -1,0 +1,137 @@
+@mixin mainSpeakers {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+  
+  
+  #mainSpeakers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+  
+    .speakers {
+      display: flex;
+      width: 100%;
+      max-width: 65rem;
+      padding: 4.625rem 0rem 4.625rem 0rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2.25rem;
+      align-self: stretch;
+  
+      .title {
+        display: flex;
+        padding: 0.625rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.625rem;
+  
+        h2 {
+          color: #272A31;
+          font-size: 1.67394rem;
+          font-family: Lato;
+          font-weight: 500;
+          line-height: 2.75rem;
+          letter-spacing: 0.05981rem;
+        }
+  
+        hr {
+          width: 3rem;
+          height: 0rem;
+          color: #EC5242;
+        }
+      }
+  
+      .speaker-cards {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        align-content: flex-start;
+        row-gap: 1.5rem;
+        flex-wrap: wrap;
+  
+        .card {
+          display: flex;
+          padding: 0.625rem;
+          align-items: flex-start;
+          gap: 0.625rem;
+  
+          img {
+            width: 8.625rem;
+            height: 8.5625rem;
+  
+            @include mainSpeakers {
+               width: 5rem;
+               height: 5rem;
+            }
+          }
+  
+          .content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.625rem;
+  
+            h2 {
+              color: #272A31;
+              width: 19.3125rem;
+              font-size: 1.5rem;
+              font-weight: 600;
+              letter-spacing: 0.05981rem;
+  
+              @include mainSpeakers {
+                width: auto;
+              }
+            }
+  
+            h4 {
+              color: var(--primary-c-olor, #EC5242);
+              width: 19.3125rem;
+              font-size: 1rem;
+              letter-spacing: 0.05981rem;
+  
+              @include mainSpeakers {
+                width: auto;
+                font-size: 14px;
+              }
+            }
+  
+            hr {
+              width: 3rem;
+              height: 0rem;
+              color: gray;
+            }
+  
+            p {
+              color: var(--secondary-color, #272A31);
+              width: 19.3125rem;
+              font-size: 1rem;
+              font-family: Lato;
+              letter-spacing: 0.05981rem;
+  
+              @include mainSpeakers {
+                width: auto;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+  
+      #seeMore {
+        display: none;
+  
+        @include mainSpeakers {
+          display: flex;
+          width: 80%;
+          padding: 1rem;
+          margin: 0 1rem;
+          justify-content: center;
+        }
+      }
+    }
+  }

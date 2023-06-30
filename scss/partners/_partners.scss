@@ -1,0 +1,66 @@
+@mixin partnersMobile {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+  
+  #partnersSection {
+    display: flex;
+    padding: 3.75rem 0.625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    background: #272A31;
+  
+    .partner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2.625rem;
+  
+      .title {
+        display: flex;
+        padding: 0.625rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.625rem;
+  
+        h4 {
+          color: #FFF;
+          font-size: 1.67394rem;
+          font-weight: 500;
+          line-height: 2.75rem;
+          letter-spacing: 0.05981rem;
+        }
+  
+        hr {
+          width: 3rem;
+          height: 0rem;
+          color: #EC5242;
+        }
+      }
+  
+      .partners {
+        display: flex;
+        width: 100%;
+        max-width: 65rem;
+        justify-content: center;
+        align-items: center;
+        align-content: flex-start;
+        gap: 2rem 1.5rem;
+        flex-wrap: wrap;
+  
+        img {
+          display: flex;
+          width: 11.5rem;
+          height: 2.125rem;
+          padding: 0rem 0.11081rem 0.00181rem 0rem;
+          justify-content: center;
+          align-items: flex-end;
+          flex-shrink: 0;
+          color: #FFF;
+        }
+      }
+    }
+  }

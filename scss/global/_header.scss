@@ -1,0 +1,143 @@
+
+@mixin mobile {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+  
+  header {
+    box-shadow: 0px 4px 8px 0px rgba(167, 167, 167, 0.25);
+  
+    .top-banner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.625rem;
+      align-self: stretch;
+      background-color: #3E3E3E;
+  
+      .banner {
+        display: flex;
+        width: 100%;
+        max-width: 65rem;
+        padding: 0.3125rem 0.625rem;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1rem;
+  
+        p {
+          color: white;
+        }
+      }
+    }
+  
+    .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .menu-bottom {
+        display: flex;
+        width: 100%;
+        max-width: 65rem;
+        padding: 0.5rem 0rem;
+        justify-content: space-between;
+        align-items: center;
+  
+        .left-menu {
+          display: flex;
+          align-items: center;
+          gap: 5.375rem;
+          width: inherit;
+          justify-content: end;
+  
+          .left {
+            display: flex;
+            align-items: center;
+            gap: 5.375rem;
+  
+            li {
+              list-style: none;
+  
+              a {
+                color: #868686;
+              }
+  
+              .active {
+                color: #791e14 !important;
+              }
+            }
+          }
+  
+          button {
+            display: flex;
+            padding: 0.8125rem 1.375rem;
+            align-items: flex-start;
+            gap: 0.625rem;
+            border: 3px solid #EC5242;
+            color: #EC5242;
+            background-color: white;
+          }
+        }
+      }
+    }
+  
+    #humburger {
+      display: none;
+    }
+  
+  @include mobile {
+    box-shadow: none;
+  
+    .top-banner {
+      display: none;
+    }
+  
+    #mobile-menu {
+      display: none;
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      background-color: #EC5242;
+  
+      .menu-bottom {
+  
+        img {
+          display: none;
+        }
+  
+        .left-menu {
+  
+          .left {
+              display: flex;
+              align-items: center;
+              gap: 3rem;
+              flex-direction: column;
+              position: fixed;
+              top: 83px;
+              justify-content: center;
+              width: 100%;
+  
+              a {
+                color: white;
+              }
+            }
+  
+            button {
+              display: none;
+            }
+          }
+  
+        }
+      }
+  
+      #humburger {
+        display: flex;
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+  

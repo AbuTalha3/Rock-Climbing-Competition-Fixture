@@ -1,0 +1,59 @@
+@mixin footerMobile {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+  
+  #footerSection {
+    display: flex;
+    padding: 3.75rem 0.625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+  
+    .footer {
+      display: flex;
+      width: 100%;
+      max-width: 65rem;
+      align-items: flex-start;
+      gap: 2.625rem;
+  
+      @include footerMobile {
+        flex-direction: column;
+      }
+  
+      img {
+        width: 13.3125rem;
+        height: 2rem;
+        flex-shrink: 0;
+      }
+  
+      .rights {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        flex-shrink: 0;
+  
+        h5 {
+          color: var(--secondary-color, #272A31);
+          font-size: 1.67394rem;
+          font-weight: 500;
+          line-height: 2.75rem;
+          letter-spacing: 0.05981rem;
+        }
+  
+        p {
+          display: flex;
+          flex-direction: column;
+          align-self: stretch;
+          color: var(--secondary-color, #272A31);
+          font-size: 1rem;
+          font-family: Lato;
+          letter-spacing: 0.05981rem;
+        }
+      }
+    }
+  }

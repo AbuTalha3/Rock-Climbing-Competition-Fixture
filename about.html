@@ -1,97 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <nav class="Navbar">
-    <div class="nav-signin bg-dark d-flex hideOnMobile-f">
-      <ul class="nav-ul gap-close">
-        <li><a href="#" class="fs-medium"><i class="fa fa-facebook fc-white fs-medium"></a></i></li>
-        <li><a href="#" class="fs-medium"><i class="fa fa-twitter fc-white fs-medium"></a></i></li>
-        <li><a href="#" class="fc-white fs-small no-style">Logout</a></li>
-        <li><a href="#" class="fc-white fs-small no-style">Mypage</a></li>
-        <li><a href="#" class="fc-white fs-small no-style">Explore GB</a></li>
-      </ul>
-    </div>
-    <div class="nav-items d-flex align-center">
-      <button type="button" id="Menu-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
-      <div class="nav-brand">
-        <a href="index.html"><img src="./images/Summer-Camp.jpg" class="hideOnMobile-f logo" alt="Summer Camp Logo"></img></a>
-      </div>
-      <div class="nav-links d-right" id="nav-options">
-        <ul class="nav-ul Mobile-Menu gap-wide" id="mobile-Menu">
-          <li class='d-right close-menu'><a href="#" class="hideOnDesktop-I no-style Dark-Blue" id="closemenu">&times;</a></li>
-          <li><a class="Dark-Blue fs-medium  no-style" href="index.html">Home</a></li>
-          <li><a class="Dark-Blue fs-medium  no-style" href="index.html#Fixtures">Fixtures</a></li>
-          <li><a class="Dark-Blue fs-medium  no-style" href="index.html#Guest-Container">Partners</a></li>
-          </ul>
-      </div>
-    </div>
-  </nav>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />		
+		<link rel="stylesheet" href="./dist/index.css" />
+		<link rel="stylesheet" href="./style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+		<title>About</title>
+	</head>
+	<body>
+		<nav>
+			<header id="header">
+				<div class="top-banner">
+					<div class="banner">
+						<img src="./images/Facebook.svg" alt="" />
+						<img src="./images/twitter.svg" alt="" />
+						<p>Logout</p>
+						<p>My Page</p>
+						<p>English</p>
+					</div>
+				</div>
+				<div class="menu" id="mobile-menu">
+					<div class="menu-bottom">
+						<a href="./index.html"
+							><img class="Logo-SC" id="logo1" src="./images/logo sc latestt.png" alt="Logo Summer Camp"
+						/></a>
+						<div class="left-menu">
+							<ul class="left">
+								<li><a href="./index.html">Home</a></li>
+								<li><a class="active" href="#">About</a></li>
+								<li><a href="">Program</a></li>
+								<li><a href="">News</a></li>
+							</ul>
+							<button>GB CLIMB</button>
+						</div>
+					</div>
+				</div>
+				<div id="humburger">
+					<span class="material-symbols-outlined"> menu </span>
+				</div>
+			</header>
+		</nav>
+		<section id="aboutHeadline">
+			<div class="hero-content">
+				<div class="title">
+					<h1>Rock Climbing Competition - 2023</h1>
+					<hr />
+				</div>
+				<div class="about">
+					<p class="para-about">	Welcome to the <strong>The Summer Camp</strong>, where we greet you from closer to nature. 
+					Arranging learning cum adventure for you and your peers that includes close distance kickoffs, 
+					rockclimbing, abceiling, hiking, archery, trout fishing, kyaking, boating, sight seeing, Para Gliding, 
+					and much more. Come and enjoy the cool summers of GB with us.</p>
+				</div>
+				<div class="contact">
+					<p>+92-(0)5811-5533-55</p>
+					<h4>summercampgb@gmail.com</h4>
+				</div>
+			</div>
+		</section>
+		<section id="logoSection">
+			<div class="logo">
+				<h3>Climbing Competition Logo Designs</h3>
+				<hr />
+				<p>The logo of Summer Camp was designed in 2019 as an idea of a Project.Lorem ipsum, dolor sit amet 
+				consectetur adipisicing elit. Accusamus sed iste perspiciatis vel, quam odit recusandae similique
+				eius distinctio ad earum excepturi culpa assumenda eaque? Doloribus deserunt soluta autem itaque.</p>
+				<div class="logo-designs">
+					<img src="./images/summer camp logoo AI.jpeg" alt="" />					
+					<img src="./images/logo summer camp latest.png" alt="" />
+				</div>
+			</div>
+		</section>
+		<section id="LastYear">
+			<div class="last">
+				<div class="content">
+					<h2>Our Dstinguished Affiliates</h2>
+					<hr />
+					<p>Top notch Institutions frequently visit us!</p>
+				</div>
+				<div class="pic">
+					<img src="./images/centurion.jpeg" alt="" />
+					<img src="./images/bechon-house.jpeg" alt="" />
+				</div>
+			</div>
+		</section>
+		<section id="footerSection">
+			<div class="footer">
+				<img class="logo-tasweer" src="./images/logo summer camp latest.png" alt="" />
+				<div class="rights">
+					<h5>SUMMER CAMP</h5>
+					<p>Copyright © 2013-2023, SUMMER CAMP, RESORTS & FIXTURES. All rights reserved.</p>						
+				</div>
+			</div>
+		</section>
 
-  <section class="About-Headline">
-    <!-- <p class="Headline-quote">“A younger me needed to climb every mountain. The older me says they photograph better from the bottom. Anonymous”</p> -->
-    <p class="Headline-greeting">Hello! Adventure Lovers</p>
-    <h1 class="h1-mobile About-Headline-title">Summer Camp and Mountain Climbing</h1>
-    <article class="article-about">
-      Welcome to the <strong>The Summer Camp</strong>, where we greet you from closer to nature. 
-      Arranging learning cum adventure for you and your peers that includes close distance kickoffs, 
-      rockclimbing, abceiling, hiking, archery, trout fishing, kyaking, boating, sight seeing, Para Gliding, 
-      and much more. Come and enjoy the cool summers of GB with us.      
-    </article>
-    <div>
-      <h3 class="h3 fc-white">Contact Us:</h3>
-      <img  class="phone-logo" src="./images/phone-logo.jpeg" alt="Phone logo">
-      <h3 class="ph-number fc-white">+92-(0)5811-5533-55:</h3>
-      <img  class="gmail-logo" src="./images/gmail-logo.jpeg" alt="gmail logo">
-      <a href="#" class="fc-white">summercampGB@gmail.com</a>
-    </div>
-  </section>
-
-  <section class="CC-summit">
-    <h1 class="Dark-Blue">Summer Camp and Mountain Climbing</h1>
-    <span class="title-underline"></span>
-    <p class="summer-camp-para">The logo of Summer Camp was designed in 2019 as an idea of a Project.</p>
-    <img  class="large-logo" src="./images/Summer-Camp.jpg" alt="Summer Camp logo">
-  </section>
-
-  <section class="CC-summit bg-light">
-    <h1 class="Dark-Blue">Affiliated Institutions</h1>
-    <span class="title-underline"></span>
-    <p>Top notch Institutions frequently visit us</p>
-    <div class="winner-teams">
-      <div class="school-img">
-        <div class="school-name">
-          <p class="fc-white">2021 <br> <span>Centurion Hafizabad</span></p>
-        </div>
-      </div>
-      <div class="school-img">
-        <div class="school-name">
-          <p class="fc-white">2022 <br> <span>Beachon House Sialkot</span></p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer class="Home-footer bg-dark">
-    <div class="host">
-      <img src="./images/Summer-Camp.jpg" alt="summer camp logo">
-    </div>
-    <div class="host-title">
-      <span class="fc-white">Established 2019- Idea Conceieved and Created by Co-Founder Hassan Raza and Abu Talha</span>
-    </div>
-  </footer>
-  <script src="menu.js"></script>
-</body>
+		<script src="./js/mainSpeakers.js"></script>
+		<script src="./app.js"></script>
+	</body>
 </html>

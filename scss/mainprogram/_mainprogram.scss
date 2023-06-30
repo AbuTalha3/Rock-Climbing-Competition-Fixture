@@ -1,0 +1,128 @@
+@mixin mainProgram {
+    @media  (max-width: 768px) {
+      @content;
+    }
+  }
+  
+  
+  #mainProgram {
+    display: flex;
+    padding: 0.625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    background-image: url(/scss/images/pattern_bg.png);
+    background-repeat: repeat;
+    background-color: #272a32;
+  
+    .program {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 65rem;
+      gap: 2.625rem;
+  
+      @include mainProgram {
+        width: 100%;
+      }
+  
+      .title {
+        display: flex;
+        padding: 0.625rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.625rem;
+  
+        h4 {
+          color: #FFF;
+          font-size: 1.67394rem;
+          font-weight: 500;
+          line-height: 2.75rem;
+          letter-spacing: 0.05981rem;
+        }
+  
+        hr {
+          width: 3rem;
+          height: 0rem;
+          color: #EC5242;
+        }
+      }
+  
+      .cards {
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        gap: 0.25rem;
+  
+        @include mainProgram {
+          flex-wrap: wrap;
+          padding: 0 1rem;
+        }
+  
+        .card {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 0.8125rem;
+          padding: 1.5rem 1.125rem;
+          flex: 1 0 0;
+          background: rgba(255, 255, 255, 0.10);
+  
+          @include mainProgram {
+            flex: auto;
+            flex-direction: row;
+          }
+  
+          h5 {
+            color: var(--primary-c-olor, #EC5242);
+            font-size: 1.375rem;
+            line-height: 1.75rem;
+          }
+  
+          p {
+            color: #FFF;
+            text-align: center;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            letter-spacing: 0.01563rem;
+  
+            @include mainProgram {
+              text-align: left;
+            }
+          }
+        }
+      }
+  
+      .seemore {
+        display: flex;
+        padding: 0.625rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.625rem;
+  
+        @include mainProgram {
+          display: flex;
+          padding: 1.25rem 3.125rem;
+          justify-content: center;
+          align-items: center;
+          gap: 0.625rem;
+          background: #FF4F38;
+        }
+  
+        p {
+          color: white;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          letter-spacing: 0.03125rem;
+          text-decoration-line: underline;
+          cursor: pointer;
+  
+           @include mainProgram {
+             text-decoration-line: none;
+           }
+        }
+      }
+    }
+  }
