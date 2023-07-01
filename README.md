@@ -91,7 +91,7 @@ This is the mobile size web page project, it tests more on Git, GitHub, GitHub W
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-https://abutalha3.github.io/Capstone-project-Module-One/
+[Live Demo](https://abutalha3.github.io/Capstone-project-Module-One/)
 <!-- > Add a link to your deployed project.
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
