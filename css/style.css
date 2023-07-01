@@ -22,6 +22,22 @@ a {
   text-decoration: none;
 }
 
+hr {
+  width: 2.1875rem;
+  height: 0.125rem;
+  color: #a04038;
+}
+
+p {
+  color: #838383;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3125rem;
+  letter-spacing: -0.03rem;
+}
+
 header {
   box-shadow: 0 4px 8px 0 rgba(167, 167, 167, 0.25);
 }
@@ -413,6 +429,15 @@ header #humburger {
   gap: 0.625rem;
 }
 
+#logoSection .logo h3 {
+  color: #2c2c2c;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  letter-spacing: -0.05625rem;
+}
+
 #headline .content .heading h3 {
   color: var(--primary-c-olor, #ec5242);
   font-size: 2.85438rem;
@@ -604,10 +629,48 @@ header #humburger {
   }
 }
 
+#footerSection .footer .rights h5 {
+  color: var(--secondary-color, #272a31);
+  font-size: 1.67394rem;
+  font-weight: 500;
+  line-height: 2.75rem;
+  letter-spacing: 0.05981rem;
+}
+
 #mainProgram .program .cards .card h5 {
   color: var(--primary-c-olor, #ec5242);
   font-size: 1.375rem;
   line-height: 1.75rem;
+}
+
+#footerSection .footer .rights p {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: var(--secondary-color, #272a31);
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.05981rem;
+}
+
+#LastYear .last .content p {
+  color: #838383;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3125rem;
+  letter-spacing: -0.03rem;
+}
+
+#aboutHeadline .hero-content .about p {
+  color: #000;
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem;
 }
 
 #mainProgram .program .cards .card p {
@@ -702,6 +765,92 @@ header #humburger {
   gap: 0.625rem;
 }
 
+#footerSection .footer img {
+  width: 13.3125rem;
+  height: 2rem;
+  flex-shrink: 0;
+}
+
+#logoSection .logo img {
+  width: auto;
+  height: 5rem;
+}
+
+#partnersSection .partner .partners img {
+  display: flex;
+  width: 11.5rem;
+  height: 2.125rem;
+  padding: 0 0.11081rem 0.00181rem 0;
+  justify-content: center;
+  align-items: flex-end;
+  flex-shrink: 0;
+  color: #fff;
+}
+
+#footerSection .footer .rights {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+#LastYear {
+  display: flex;
+  padding: 4.0625rem 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.1875rem;
+}
+
+#LastYear .last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 65rem;
+}
+
+#LastYear .last .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+#LastYear .last .content h2 {
+  color: #2c2c2c;
+  font-size: 1.875rem;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  letter-spacing: -0.05625rem;
+}
+
+#LastYear .last .content hr {
+  width: 2.1875rem;
+  height: 0.125rem;
+  color: #a04038;
+}
+
+#LastYear .last .pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5625rem;
+  flex-wrap: wrap;
+}
+
+#LastYear .last .pic img {
+  width: auto;
+  height: 14.75rem;
+}
+
 #mainSpeakers .speakers .speaker-cards .card img {
   width: 8.625rem;
   height: 8.5625rem;
@@ -743,10 +892,88 @@ header #humburger {
 }
 
 @media (max-width: 768px) {
+  #partnersSection .partner .title h4 {
+    color: #fff;
+    font-size: 1.67394rem;
+    font-weight: 500;
+    line-height: 2.75rem;
+    letter-spacing: 0.05981rem;
+  }
+
+  #partnersSection .partner .title hr {
+    width: 3rem;
+    height: 0;
+    color: #ec5242;
+  }
+
   #mainSpeakers .speakers .speaker-cards .card .content h4 {
     width: auto;
     font-size: 14px;
   }
+}
+
+#aboutHeadline {
+  display: flex;
+  padding: 6.8125rem 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  background: url("../images/about_bg_01.png") center center no-repeat #f7f7f8;
+  height: auto;
+  overflow: auto;
+}
+
+#aboutHeadline .hero-content {
+  display: flex;
+  max-width: 65rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.1875rem;
+}
+
+#aboutHeadline .hero-content .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.125rem;
+}
+
+#aboutHeadline .hero-content .title h1 {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem;
+  text-align: center;
+  letter-spacing: -0.09rem;
+  background: url(../images/bg.jpg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-position: right;
+}
+
+#aboutHeadline .hero-content .title hr {
+  width: 2.1875rem;
+  height: 0.125rem;
+  color: #a04038;
+}
+
+#aboutHeadline .hero-content .about {
+  display: flex;
+  padding: 2.1875rem 2rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  background-color: white;
+}
+
+#aboutHeadline .hero-content .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.125rem;
 }
 
 #mainSpeakers .speakers .speaker-cards .card .content hr {
@@ -809,20 +1036,6 @@ header #humburger {
   gap: 0.625rem;
 }
 
-#partnersSection .partner .title h4 {
-  color: #fff;
-  font-size: 1.67394rem;
-  font-weight: 500;
-  line-height: 2.75rem;
-  letter-spacing: 0.05981rem;
-}
-
-#partnersSection .partner .title hr {
-  width: 3rem;
-  height: 0;
-  color: #ec5242;
-}
-
 #partnersSection .partner .partners {
   display: flex;
   width: 100%;
@@ -832,17 +1045,6 @@ header #humburger {
   align-content: flex-start;
   gap: 2rem 1.5rem;
   flex-wrap: wrap;
-}
-
-#partnersSection .partner .partners img {
-  display: flex;
-  width: 11.5rem;
-  height: 2.125rem;
-  padding: 0 0.11081rem 0.00181rem 0;
-  justify-content: center;
-  align-items: flex-end;
-  flex-shrink: 0;
-  color: #fff;
 }
 
 #footerSection {
@@ -868,128 +1070,6 @@ header #humburger {
   }
 }
 
-#footerSection .footer img {
-  width: 13.3125rem;
-  height: 2rem;
-  flex-shrink: 0;
-}
-
-#footerSection .footer .rights {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1rem;
-  flex-shrink: 0;
-}
-
-#footerSection .footer .rights h5 {
-  color: var(--secondary-color, #272a31);
-  font-size: 1.67394rem;
-  font-weight: 500;
-  line-height: 2.75rem;
-  letter-spacing: 0.05981rem;
-}
-
-#footerSection .footer .rights p {
-  display: flex;
-  flex-direction: column;
-  align-self: stretch;
-  color: var(--secondary-color, #272a31);
-  font-size: 1rem;
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 0.05981rem;
-}
-
-hr {
-  width: 2.1875rem;
-  height: 0.125rem;
-  color: #a04038;
-}
-
-p {
-  color: #838383;
-  text-align: center;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.3125rem;
-  letter-spacing: -0.03rem;
-}
-
-#aboutHeadline {
-  display: flex;
-  padding: 6.8125rem 1rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.625rem;
-  background: url("../images/about_bg_01.png") center center no-repeat #f7f7f8;
-  height: auto;
-  overflow: auto;
-}
-
-#aboutHeadline .hero-content {
-  display: flex;
-  max-width: 65rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2.1875rem;
-}
-
-#aboutHeadline .hero-content .title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2.125rem;
-}
-
-#aboutHeadline .hero-content .title h1 {
-  font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 3rem;
-  text-align: center;
-  letter-spacing: -0.09rem;
-  background: url(../images/bg.jpg);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-position: right;
-}
-
-#aboutHeadline .hero-content .title hr {
-  width: 2.1875rem;
-  height: 0.125rem;
-  color: #a04038;
-}
-
-#aboutHeadline .hero-content .about {
-  display: flex;
-  padding: 2.1875rem 2rem;
-  align-items: flex-start;
-  gap: 0.625rem;
-  background-color: white;
-}
-
-#aboutHeadline .hero-content .about p {
-  color: #000;
-  text-align: center;
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5625rem;
-}
-
-#aboutHeadline .hero-content .contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2.125rem;
-}
-
 #logoSection {
   display: flex;
   padding: 4.0625rem 1rem;
@@ -1006,86 +1086,6 @@ p {
   align-items: center;
   max-width: 65rem;
   gap: 2.1875rem;
-}
-
-#logoSection .logo h3 {
-  color: #2c2c2c;
-  font-size: 1.875rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.75rem;
-  letter-spacing: -0.05625rem;
-}
-
-#logoSection .logo img {
-  width: auto;
-  height: 5rem;
-}
-
-#LastYear {
-  display: flex;
-  padding: 4.0625rem 2rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2.1875rem;
-}
-
-#LastYear .last {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  max-width: 65rem;
-}
-
-#LastYear .last .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1.25rem;
-}
-
-#LastYear .last .content h2 {
-  color: #2c2c2c;
-  font-size: 1.875rem;
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.75rem;
-  letter-spacing: -0.05625rem;
-}
-
-#LastYear .last .content hr {
-  width: 2.1875rem;
-  height: 0.125rem;
-  color: #a04038;
-}
-
-#LastYear .last .content p {
-  color: #838383;
-  text-align: center;
-  font-size: 1rem;
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.3125rem;
-  letter-spacing: -0.03rem;
-}
-
-#LastYear .last .pic {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5625rem;
-  flex-wrap: wrap;
-}
-
-#LastYear .last .pic img {
-  width: auto;
-  height: 14.75rem;
 }
 
 @media (max-width: 768px) {
