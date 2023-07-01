@@ -60,6 +60,19 @@
         padding: 0 1rem;
       }
 
+      p {
+        color: white;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.03125rem;
+        text-decoration-line: underline;
+        cursor: pointer;
+
+        @include mainProgram {
+          text-decoration-line: none;
+        }
+      }
+
       .card {
         display: flex;
         flex-direction: column;
@@ -108,19 +121,6 @@
         align-items: center;
         gap: 0.625rem;
         background: #ff4f38;
-      }
-
-      p {
-        color: white;
-        font-size: 1rem;
-        line-height: 1.5rem;
-        letter-spacing: 0.03125rem;
-        text-decoration-line: underline;
-        cursor: pointer;
-
-        @include mainProgram {
-          text-decoration-line: none;
-        }
       }
     }
   }

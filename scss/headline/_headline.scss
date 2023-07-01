@@ -57,7 +57,6 @@
         background: url(../images/bg.jpg);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
-        background-clip: text;
         background-position: right;
 
         @include mobileHeadline {
@@ -69,7 +68,6 @@
           background: url(../images/bg.jpg);
           -webkit-text-fill-color: transparent;
           -webkit-background-clip: text;
-          background-clip: text;
           background-position: right;
         }
       }

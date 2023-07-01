@@ -4,6 +4,22 @@
   }
 }
 
+hr {
+  width: 2.1875rem;
+  height: 0.125rem;
+  color: #a04038;
+}
+
+p {
+  color: #838383;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3125rem;
+  letter-spacing: -0.03rem;
+}
+
 #aboutHeadline {
   display: flex;
   padding: 6.8125rem 1rem;
@@ -40,7 +56,6 @@
         background: url(../images/bg.jpg);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
-        background-clip: text;
         background-position: right;
       }
 
@@ -103,22 +118,6 @@
       letter-spacing: -0.05625rem;
     }
 
-    hr {
-      width: 2.1875rem;
-      height: 0.125rem;
-      color: #a04038;
-    }
-
-    p {
-      color: #838383;
-      text-align: center;
-      font-size: 1rem;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 1.3125rem;
-      letter-spacing: -0.03rem;
-    }
-
     img {
       width: auto;
       height: 5rem;
@@ -152,7 +151,7 @@
       h2 {
         color: #2c2c2c;
         font-size: 1.875rem;
-        font-family: Lato;
+        font-family: 'Lato', sans-serif;
         font-style: normal;
         font-weight: 700;
         line-height: 1.75rem;
@@ -169,7 +168,7 @@
         color: #838383;
         text-align: center;
         font-size: 1rem;
-        font-family: Lato;
+        font-family: 'Lato', sans-serif;
         font-style: normal;
         font-weight: 700;
         line-height: 1.3125rem;
