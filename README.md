@@ -31,7 +31,7 @@ After you're finished please remove all the comments and instructions!
   <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
-  <h1><b>Hello Microverse</b></h1>
+  <h1><b>Rock climbing Competition</b></h1>
 
 </div>
 
@@ -61,11 +61,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio-Setup <a name="about-project"></a>
+# 📖 Rock climbing Competition <a name="Rock climbing Competition"></a>
 
-This is the mobile size web page project, it tests more on Git, GitHub, GitHub Workflow and Linters.
+Rock climbing Competition is a web page made for a rock climbing fixture scheduled to professional and novice rock climbers. It is an interactive interface that allows you to create and manipulate pages for different events of the competition. It is designed to be used on mobile devices, tablets and desktop browsers.
 
-*[Portfolio-Setup]* is a HTML CSS project
+*[Portfolio-Setup]* is a HTML CSS project with a few features of javaScript,
 
 ## 🛠 Built With <a name="built-with"></a>
 
