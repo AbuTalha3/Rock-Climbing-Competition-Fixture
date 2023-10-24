@@ -197,7 +197,7 @@ sh
 
 Contributions, issues, and feature requests are welcome!
 
-<!-- Feel free to check the [issues page](../../issues/). -->
+<!-- Always Feel free to check the [issues page](../../issues/). -->
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
