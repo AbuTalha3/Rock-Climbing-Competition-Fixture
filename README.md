@@ -63,7 +63,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Portfolio-Setup <a name="about-project"></a>
 
-This is the mobile-size web page project, it tests more on Git, GitHub, GitHub Workflow, and Linters.
+Climbing Competition is an interactive website made with HTML, CSS and JavaScript for a Rock climbing Fixture which has different pages. It is a responsive web page made for mobile, tablet and desktop screens.
 
 *[Portfolio-Setup]* is an HTML CSS project
 
