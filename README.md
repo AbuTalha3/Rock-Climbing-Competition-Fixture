@@ -77,6 +77,7 @@ Climbing Competition is an interactive website made with HTML, CSS and JavaScrip
 - Linters
 - Figma Design
 - Canva
+- Github Flow
 
 ### Key Features <a name="key-features"></a>
 
@@ -155,8 +156,8 @@ You can deploy this project using:
 
 sh
   gh-pages
-  netlify
-  vercel
+  Netlify
+  Vercel
 
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
@@ -207,7 +208,7 @@ Contributions, issues, and feature requests are welcome!
 
 > Write a message to encourage readers to support your project
 
-If you like this project you can contact me for any of your coding dreams.
+If you like this project you may give it a star and you can contact me for any of your coding dreams.
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
