@@ -146,7 +146,7 @@ To run the project, start the html file on live server
 
 To run tests, run the following command:
 sh
-  npx hint .
+  npx hint.
   npx stylelint "**/*.{css,scss}"
 
 
@@ -218,7 +218,7 @@ If you like this project you may give it a star and you can contact me for any o
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank "Cindy Shin" for allowing to use the design made by her.
+I would like to thank "Cindy Shin" for allowing me to use the design made by her.
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
