@@ -242,7 +242,7 @@ I would like to thank "Cindy Shin" for allowing to use the design made by her.
 
 ## 📝 License <a name="license"></a>
 
-This project is [Creative Common Licence](./LICENCE) licensed.I am thankful to Creative Commons Org for providing access to their project.
+This project is [Creative Common Licence](./LICENCE) licensed. I am thankful to Creative Commons Org for providing access to their project.
 
 <!-- NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish. -->
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
