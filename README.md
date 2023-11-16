@@ -71,8 +71,8 @@ Climbing Competition is an interactive website made with HTML, CSS and JavaScrip
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- HTML
-- SCSS / CSS
+- Hyper Text Markup Language
+- SCSS / Cascading Style Sheet
 - JavaScript
 - Linters
 - Figma Design
