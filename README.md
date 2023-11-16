@@ -1,4 +1,4 @@
-# Rock Climbing Competition Fixture
+# JS CSP
 <a name="readme-top"></a>
 
 <!--
