@@ -74,7 +74,7 @@ Climbing Competition is an interactive website made with HTML, CSS and JavaScrip
 - Hyper Text Markup Language
 - SCSS / Cascading Style Sheet
 - JavaScript
-- Linters configration
+- Linters configuration
 - Figma Design
 - Canva
 - Github Flow
