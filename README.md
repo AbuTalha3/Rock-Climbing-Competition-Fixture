@@ -83,7 +83,7 @@ Climbing Competition is an interactive website made with HTML, CSS, and JavaScri
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- *Understanding Git, GitHub and GitHub Workflow*
+- *Understanding Git, GitHub, and GitHub Workflow*
 - *Configuring Linters*
 - *Creating pull requests and merging*
 
