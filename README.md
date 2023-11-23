@@ -1,4 +1,4 @@
-# JavaScript CSP
+# JavaScript CapStoneProject
 <a name="readme-top"></a>
 
 <!--
