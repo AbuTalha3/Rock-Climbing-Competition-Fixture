@@ -1,4 +1,4 @@
-# JS CSP
+# JavaScript CSP
 <a name="readme-top"></a>
 
 <!--
