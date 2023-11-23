@@ -78,6 +78,7 @@ Climbing Competition is an interactive website created with HTML, CSS, and JavaS
 - Figma Design
 - Canva
 - Github Flow
+- Github good practices
 
 ### Key Features <a name="key-features"></a>
 
