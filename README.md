@@ -2,15 +2,6 @@
 <a name="readme-top"></a>
 
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise, you can also remove it. -->
-  <-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
-  <br/>
-
-  <h1><b> Rock Climbing Competition Fixture</b></h1>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 ## 📗 Table of Contents
