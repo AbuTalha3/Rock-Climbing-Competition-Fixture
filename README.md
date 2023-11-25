@@ -108,7 +108,7 @@ sh
 
 ### Usage
 
-To run the project, start the html file on live server
+To run the project, start the HTML file on the live server
 
 ### Run tests
 
