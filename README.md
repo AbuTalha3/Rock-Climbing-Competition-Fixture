@@ -219,7 +219,7 @@ If you like this project you may give it a star and you can contact me for any o
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank "Cindy Shin" for allowing me to use the design made by her. And thank Microverseinc for providing opportunity to learn.
+I would like to thank "Cindy Shin" for allowing me to use the design made by her. And thank Microverseinc for providing us opportunity to learn.
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
