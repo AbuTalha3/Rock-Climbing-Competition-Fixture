@@ -1,21 +1,6 @@
 # JavaScript CapStoneProject
 <a name="readme-top"></a>
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise, you can also remove it. -->
