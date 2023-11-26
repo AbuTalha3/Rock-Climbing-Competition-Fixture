@@ -176,7 +176,7 @@ Contributions, issues, and feature requests are welcome!
 
 > Write a message to encourage readers to support your project
 
-If you like this project you may give it a star and you can contact me for any of your coding dreams.
+If you like this project you must give it a star and you can contact me for any of your coding dreams.
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
