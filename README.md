@@ -30,7 +30,7 @@
 
 # 📖 Portfolio-Setup <a name="about-project"></a>
 
-Climbing Competition is an interactive website created with (HTML) Hyper Text Markup Language, Cascading Style Sheet, and JavaScript for a rock-climbing fixture that has different pages (Home and About Page only). It is a responsive web page made for mobile, tablet, and desktop screens.
+Climbing Competition is an interactive website created with (HTML) Hyper Text Markup Language, (CSS) Cascading Style Sheet, and JavaScript for a rock-climbing fixture that has different pages (Home and About Page only). It is a responsive web page made for mobile, tablet, and desktop screens.
 
 *[Portfolio-Setup]* is an HTML CSS project
 
