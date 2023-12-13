@@ -39,8 +39,9 @@ Climbing Competition is an interactive website created with (HTML) `Hyper Text M
 ### Tech Stack <a name="tech-stack"></a>
 
 - `Hyper Text Markup Language`
-- SCSS / `Cascading Style Sheet`
-- JavaScript
+- `SCSS` 
+- `Cascading Style Sheet`
+- `JavaScript`
 - Linters configuration
 - Figma Design
 - Canva Design
