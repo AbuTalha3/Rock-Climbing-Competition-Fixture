@@ -44,8 +44,8 @@ Climbing Competition is an interactive website created with (HTML) `Hyper Text M
 - `JavaScript`
 - `Linters configuration`
 - `Figma Design`
-- Canva Design
-- Github Flow
+- `Canva Design`
+- `Github Flow`
 - Good practices
 
 ### Key Features <a name="key-features"></a>
