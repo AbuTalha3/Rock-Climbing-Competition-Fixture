@@ -42,7 +42,7 @@ Climbing Competition is an interactive website created with (HTML) `Hyper Text M
 - `SCSS` 
 - `Cascading Style Sheet`
 - `JavaScript`
-- Linters configuration
+- `Linters configuration`
 - Figma Design
 - Canva Design
 - Github Flow
