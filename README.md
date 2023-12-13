@@ -84,7 +84,7 @@ In order to run this project you may need:
 Example command:
 
 sh
- gem install rails
+ `gem install rails`
 
  -->
 
