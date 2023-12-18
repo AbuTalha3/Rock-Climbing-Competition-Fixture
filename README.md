@@ -124,7 +124,7 @@ sh
 You can deploy this project using:
 
 sh
-  gh-pages
+  `gh-pages`
   `Netlify`
   `Vercel`
 
