@@ -126,7 +126,7 @@ You can deploy this project using:
 sh
   gh-pages
   `Netlify`
-  Vercel
+  `Vercel`
 
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
