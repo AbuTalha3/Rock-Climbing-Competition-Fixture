@@ -103,7 +103,7 @@ Install this project with:
 
 sh
   cd my-folder
-  npm install
+  `npm install`
 
 
 
