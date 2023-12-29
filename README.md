@@ -95,7 +95,13 @@ Clone this repository to your desired folder:
 sh
   cd my-folder
   git clone git@github.com:AbuTalha3/Portfolio-Setup.git
+  
+### Download Zip File
 
+Install this project with:
+
+sh
+ git clone git@github.com:AbuTalha3/Portfolio-Setup.git`
 
 ### Install
 
