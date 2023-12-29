@@ -98,8 +98,7 @@ sh
   
 ### Download Zip File
 
-Install this project with:
-
+Download this project from:
 sh
  git clone git@github.com:AbuTalha3/Portfolio-Setup.git`
 
