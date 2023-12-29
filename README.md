@@ -52,7 +52,7 @@
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- *Understanding Git, GitHub, Gitflow and GitHub Workflow*
+- *Understanding Git, GitHub, Gitflow, and GitHub Workflow*
 - *Configuring Linters*
 - *Creating pull requests and merging*
 
