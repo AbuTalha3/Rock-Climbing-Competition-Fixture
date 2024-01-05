@@ -102,7 +102,7 @@ Download this project from:
 sh
  git clone git@github.com:AbuTalha3/Portfolio-Setup.git`
 
-### Install
+### Install or fork
 
 Install this project with:
 
