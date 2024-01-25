@@ -40,7 +40,7 @@
 
 - `Hyper Text Markup Language`
 - `SCSS` 
-- `Cascading Style Sheet`
+- `Cascading Styles Sheet`
 - `JavaScript`
 - `Linters configuration`
 - `Figma Design`
