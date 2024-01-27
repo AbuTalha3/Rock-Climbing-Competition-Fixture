@@ -78,8 +78,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you may need:
 
-- **`Visual Studio Code`
-- **`Live server Extension`
+- **`Visual Studio Code`**
+- **`Live server Extension`**
 <!--
 Example command:
 
