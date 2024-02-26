@@ -38,7 +38,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- `Hyper Text Markup Language`
+- `Hyper Text Markup Language` ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 - `SCSS` 
 - `Cascading Styles Sheet`
 - `JavaScript`
