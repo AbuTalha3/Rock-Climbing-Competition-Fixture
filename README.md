@@ -76,7 +76,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you may need:
+In order to run this project you may need the following:
 
 - **` Visual Studio Code`**
 - **`Live server Extension`**
