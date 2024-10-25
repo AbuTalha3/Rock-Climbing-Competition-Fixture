@@ -70,7 +70,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-<!-- > Describe how a new developer could make use of your project. -->
+<!-- > Describe how a new developer could use your project. -->
 
 To get a local copy up and running, follow these steps.
 
