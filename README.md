@@ -32,7 +32,7 @@
 
 **Climbing Competition** is an interactive website created with **(HTML)** `Hyper Text Markup Language`, **(CSS)** `Cascading Style Sheet`, and **(JS)** `JavaScript` for a rock-climbing fixture that has different pages (`Home` and `About` Page only). It is a responsive web page for mobile, tablet, and desktop screens.
 
-*[Portfolio-Setup]* is an HTML CSS project
+*[Portfolio-Setup]* is an HTML - CSS project
 
 ## 🛠 Built With <a name="built-with"></a>
 
